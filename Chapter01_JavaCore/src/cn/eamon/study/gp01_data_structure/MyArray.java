@@ -1,4 +1,4 @@
-package cn.eamon.gp01.data_structure;
+package cn.eamon.study.gp01_data_structure;
 
 public class MyArray {
     public static void main(String[] args) {
