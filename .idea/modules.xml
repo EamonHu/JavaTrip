@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaTrip.iml" filepath="$PROJECT_DIR$/JavaTrip.iml" />
       <module fileurl="file://$PROJECT_DIR$/course02-multi-threading/course02-multi-threading.iml" filepath="$PROJECT_DIR$/course02-multi-threading/course02-multi-threading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course03-IO/course03-IO.iml" filepath="$PROJECT_DIR$/course03-IO/course03-IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/course08-desigin-pattern/course08-desigin-pattern.iml" filepath="$PROJECT_DIR$/course08-desigin-pattern/course08-desigin-pattern.iml" />
     </modules>
   </component>
