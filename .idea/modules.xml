@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/course02-multi-threading/course02-multi-threading.iml" filepath="$PROJECT_DIR$/course02-multi-threading/course02-multi-threading.iml" />
       <module fileurl="file://$PROJECT_DIR$/course03-IO/course03-IO.iml" filepath="$PROJECT_DIR$/course03-IO/course03-IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/course08-desigin-pattern/course08-desigin-pattern.iml" filepath="$PROJECT_DIR$/course08-desigin-pattern/course08-desigin-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course03-IO/rpc-server/rpc-server.iml" filepath="$PROJECT_DIR$/course03-IO/rpc-server/rpc-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course03-IO/rpc-server/rpc-server-provider/rpc-server-provider.iml" filepath="$PROJECT_DIR$/course03-IO/rpc-server/rpc-server-provider/rpc-server-provider.iml" />
     </modules>
   </component>
 </project>
