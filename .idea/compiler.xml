@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="course14-mysql" />
         <module name="course03-IO" />
         <module name="rpc-server-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="course03-IO" target="1.5" />
+      <module name="course14-mysql" target="1.5" />
+      <module name="course19-uml" target="1.5" />
       <module name="rpc-server" target="1.5" />
       <module name="rpc-server-provicder" target="1.5" />
       <module name="rpc-server-provider" target="1.5" />
