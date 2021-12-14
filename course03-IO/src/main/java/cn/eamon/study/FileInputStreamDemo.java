@@ -27,8 +27,7 @@ public class FileInputStreamDemo {
         OutputStream fileOutputStream = new FileOutputStream("./users_backup.txt");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
 //        String str = "Hello World";
-        for (int i = 0; i < list.size(); i++) {
-            User user = list.get(i);
+        for (User user : list) {
             objectOutputStream.writeObject(user);
         }
         //因为是字节流，所以要转化成字节数组进行输出

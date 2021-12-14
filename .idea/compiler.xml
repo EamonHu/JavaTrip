@@ -9,12 +9,14 @@
         <module name="course14-mysql" />
         <module name="course03-IO" />
         <module name="rpc-server-provider" />
+        <module name="rpc-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="course03-IO" target="1.5" />
       <module name="course14-mysql" target="1.5" />
       <module name="course19-uml" target="1.5" />
+      <module name="rpc-client" target="1.5" />
       <module name="rpc-server" target="1.5" />
       <module name="rpc-server-provicder" target="1.5" />
       <module name="rpc-server-provider" target="1.5" />
