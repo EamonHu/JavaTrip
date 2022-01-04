@@ -1,6 +1,6 @@
-package cn.eamon.study.gp15_strategy.payPort;
+package cn.eamon.study.gp17_strategy.payPort;
 
-import cn.eamon.study.gp15_strategy.Result;
+import cn.eamon.study.gp17_strategy.Result;
 
 /**
  * @Author: Eamon

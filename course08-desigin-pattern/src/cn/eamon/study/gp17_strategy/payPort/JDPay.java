@@ -1,18 +1,18 @@
-package cn.eamon.study.gp15_strategy.payPort;
+package cn.eamon.study.gp17_strategy.payPort;
 
 /**
  * @Author: Eamon
  * @Description:
  * @Date: 2021/7/25 21:35
  */
-public class AliPay implements IPayment {
+public class JDPay implements IPayment {
     @Override
     public String getName() {
-        return "支付宝";
+        return "京东支付";
     }
 
     @Override
     public double queryBalance(String uid) {
-        return 900;
+        return 500;
     }
 }
