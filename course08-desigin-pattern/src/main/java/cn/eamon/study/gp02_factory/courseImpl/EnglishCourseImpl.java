@@ -10,6 +10,6 @@ import cn.eamon.study.gp02_factory.ICourse;
 public class EnglishCourseImpl implements ICourse {
     @Override
     public void create() {
-        System.out.println("EnglishCourse创建了英语课程");
+        System.out.println("EnglishCourseImpl创建了英语课程");
     }
 }

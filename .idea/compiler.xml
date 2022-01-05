@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <addNotNullAssertions enabled="false" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -10,15 +11,15 @@
         <module name="course03-IO" />
         <module name="rpc-server-provider" />
         <module name="rpc-client" />
+        <module name="course08-desigin-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="course03-IO" target="1.5" />
-      <module name="course14-mysql" target="1.5" />
-      <module name="course19-uml" target="1.5" />
-      <module name="rpc-client" target="1.5" />
-      <module name="rpc-server" target="1.5" />
-      <module name="rpc-server-provicder" target="1.5" />
+      <module name="course03-IO" target="8" />
+      <module name="course08-desigin-pattern" target="8" />
+      <module name="course14-mysql" target="8" />
+      <module name="rpc-client" target="8" />
+      <module name="rpc-server" target="8" />
       <module name="rpc-server-provider" target="1.5" />
     </bytecodeTargetLevel>
   </component>

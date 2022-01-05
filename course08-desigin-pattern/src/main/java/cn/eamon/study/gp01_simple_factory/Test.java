@@ -1,5 +1,7 @@
 package cn.eamon.study.gp01_simple_factory;
 
+import java.util.Calendar;
+
 /**
  * @Author: Eamon
  * @Description:
@@ -34,5 +36,7 @@ public class Test {
         System.out.println("=======reflect+extends=========");
         courseFactory.createByReflectExtends(MathCourseImpl.class).create();
         System.out.println("=======reflect+extends=========");
+        // Calendar正是用泛型指定了传参类型
+        // Calendar.getInstance();
     }
 }

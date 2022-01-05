@@ -2,6 +2,7 @@ package cn.eamon.study.gp02_factory;
 
 import cn.eamon.study.gp02_factory.ICourseFactoryImpl.EnglishCourseFactory;
 import cn.eamon.study.gp02_factory.ICourseFactoryImpl.MathCourseFactory;
+import org.slf4j.ILoggerFactory;
 
 /**
  * @Author: Eamon
@@ -15,5 +16,8 @@ public class Test {
         course.create();
         factory = new EnglishCourseFactory();
         factory.create().create();
+
+        // 可以对比类图
+//        ILoggerFactory
     }
 }
