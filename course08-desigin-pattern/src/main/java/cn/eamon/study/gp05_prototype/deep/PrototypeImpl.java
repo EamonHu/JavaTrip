@@ -19,27 +19,26 @@ public class PrototypeImpl implements Cloneable, Serializable {
     @Override
     public PrototypeImpl clone() {
         try {
-            return (PrototypeImpl)super.clone();
+            return (PrototypeImpl) super.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
         return null;
     }
 
-    public PrototypeImpl deepClone(){
-        try{
+    public PrototypeImpl deepClone() {
+        try {
             ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
             objectOutputStream.writeObject(this);
 
             ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
             ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
-            return (PrototypeImpl)objectInputStream.readObject();
-        }catch (Exception e){
+            return (PrototypeImpl) objectInputStream.readObject();
+        } catch (Exception e) {
             e.printStackTrace();
             return null;
         }
-
     }
 
     @Override
