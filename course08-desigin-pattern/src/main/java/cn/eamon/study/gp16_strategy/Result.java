@@ -1,4 +1,4 @@
-package cn.eamon.study.gp17_strategy;
+package cn.eamon.study.gp16_strategy;
 
 /**
  * @Author: Eamon

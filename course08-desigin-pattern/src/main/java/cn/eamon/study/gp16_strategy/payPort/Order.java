@@ -1,12 +1,16 @@
-package cn.eamon.study.gp17_strategy;
+package cn.eamon.study.gp16_strategy.payPort;
 
-import cn.eamon.study.gp17_strategy.payPort.IPayment;
-import cn.eamon.study.gp17_strategy.payPort.PayStrategy;
+import cn.eamon.study.gp16_strategy.Result;
+import cn.eamon.study.gp16_strategy.payPort.IPayment;
+import cn.eamon.study.gp16_strategy.payPort.PayStrategy;
+import lombok.Data;
+
 /**
  * @Author: Eamon
  * @Description:
  * @Date: 2021/7/25 21:45
  */
+@Data
 public class Order {
 
     private String uId;
